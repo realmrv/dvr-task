@@ -16,6 +16,7 @@ return [
     'defaults' => [
         'guard' => 'web',
         'passwords' => 'users',
+        'api_token_expires_in' => '3days',
     ],
 
     /*
