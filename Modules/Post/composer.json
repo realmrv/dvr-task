@@ -1,0 +1,24 @@
+{
+    "name": "laravel/post",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Post\\": "",
+            "Modules\\Post\\App\\": "app/",
+            "Modules\\Post\\Database\\Factories\\": "database/factories/",
+            "Modules\\Post\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Post\\Tests\\": "tests/"
+        }
+    }
+}
